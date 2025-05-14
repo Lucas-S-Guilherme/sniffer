@@ -183,3 +183,7 @@ sniffer/logs/
 # Arquivos temporários
 *.pyc
 __pycache__/
+
+#meus arquivos
+.atividade.txt
+anotacoes.txt
