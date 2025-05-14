@@ -20,6 +20,7 @@ O projeto está estruturado em:
   - Opcional: Wireshark (`sudo apt install wireshark`)
 
 ## Instalação
+
 1. Clone o repositório (se ainda não estiver em `/sniffer`):
    ```bash
    git clone https://github.com/Lucas-S-Guilherme/sniffer.git
@@ -30,7 +31,7 @@ O projeto está estruturado em:
 
     ```bash
     cd sniffer
-    python3 -m venv venv
+    python3 -m venv venv # cria o ambiente virtual
     source venv/bin/activate # ativa ambiente virtual
     pip install -r requirements.txt # instala dependências
     deactivate   # desativa ambiente virtual
@@ -40,33 +41,34 @@ O projeto está estruturado em:
 
     ```bash
     cd web
-    python3 -m venv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
-    deactivate  
+    python3 -m venv venv # cria o ambiente virtual
+    source venv/bin/activate # ativa ambiente virtual
+    pip install -r requirements.txt # instala dependências
+    deactivate  # desativa ambiente virtual
     ```
 
 ## Como Executar o Sniffer
 
-    ```bash
+```bash
     cd sniffer # Navegue até a pasta do sniffer 
     source venv/bin/activate # ative o ambiente virtual
     sudo venv/bin/python sniffer.py # execute o sniffer com privilégios de root
-    ```
+ ```
 
 O sniffer capturará todos os pacotes TCP na porta 5000, exibirá no console e salvará em logs/sniffer.log. Pressione Ctrl+C para parar. Dê o comando deactivate no terminal para desativar o ambiente virtual.
 
 ## Como Iniciar a Página de Login
 
-    ```bash
+```bash
     cd web # navegue até a pasta web
     source venv/bin/activate # ativa o ambiente virtual
     python server.py # inicia o servidor Flask
-    ``` 
+``` 
 
 Abra um navegador e acesse: http://localhost:5000
 Preencha o formulário de login e envie. O servidor responderá com uma mensagem JSON.
 
+Após utilizar Pressione Ctrl+C para parar. Dê o comando deactivate no terminal para desativar o ambiente virtual.
 
 ## Debugar com Wireshark
 
