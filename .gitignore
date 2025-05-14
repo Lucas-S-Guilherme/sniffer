@@ -185,5 +185,5 @@ sniffer/logs/
 __pycache__/
 
 #meus arquivos
-.atividade.txt
+atividade.txt
 anotacoes.txt
