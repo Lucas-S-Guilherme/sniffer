@@ -1,0 +1,47 @@
+Atividade: Criar Sniffer + Página de Login
+
+    Sniffer
+
+        Linguagem à escolha (Python, Go, C, Rust, etc.)
+
+        Capturar e exibir no console: timestamp, IP origem/destino, portas e payload de pacotes HTTP/TCP ou UDP.
+
+        Deve rodar em modo “root” ou com permissão para raw sockets.
+
+    Página de Login
+
+        Arquivo HTML+JS simples com form de usuário e senha.
+
+        Enviar via fetch() um POST (JSON ou formulário) para um endpoint local.
+
+    README.md
+
+        Seções claras:
+
+            Visão geral do projeto
+
+            Pré-requisitos e instalação (linguagem, libs)
+
+            Como executar o sniffer
+
+            Como iniciar a página de login
+
+            Filtros Wireshark recomendados (porta e método POST)
+
+            Exemplos de saída esperada
+
+        Texto objetivo, passo-a-passo, para qualquer iniciante.
+
+Entregáveis
+
+    Repositório GitHub
+    Um repo público contendo todo o projeto.
+
+    Sniffer
+    Na raiz do repo, pasta sniffer/ com o código-fonte do seu capturador de pacotes.
+
+    Tela de Login para Teste
+    Pasta web/ com index.html e app.js (ou equivalente) para gerar tráfego HTTP.
+
+    README.md
+    No diretório principal, com instruções passo-a-passo (instalação, execução do sniffer, uso da página, filtros Wireshark).

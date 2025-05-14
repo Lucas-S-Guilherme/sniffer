@@ -172,3 +172,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ambientes virtuais
+sniffer/venv/
+web/venv/
+
+# Logs
+sniffer/logs/
+
+# Arquivos temporários
+*.pyc
+__pycache__/
